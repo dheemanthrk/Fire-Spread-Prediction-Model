@@ -8,26 +8,14 @@ This project focuses on collecting, processing, and analyzing meteorological and
 - **ERA5-Land (ECMWF/ERA5_LAND)** - Provides daily average temperature, wind speed, and other climate variables.
 - **MSC GeoMet API (Environment Canada)** - Official Canadian weather data.
 
-### 2️⃣ **Vegetation Data**
-- **MODIS (`MODIS/006/MOD11A1`)** - Daily land surface temperature.
-- **Copernicus Sentinel-3 SLSTR** - High-resolution land surface temperature.
-
-### 3️⃣ **Historical Fire Data**
-- **CWFIS API (Canadian Wildland Fire Information System)** - Provides fire history records for Canada.
-
-### 4️⃣ **Topographical Data**
-- **ABMPS Province of BC Shapefile** - Used to create a **10 km x 10 km grid** for spatial mapping.
-- **Downloaded 40 TIFF files** for topographical data from British Columbia.
-
 ## Data Processing Workflow
 ### ✅ **1. Data Collection**
-- Fetch meteorological, NDVI, and fire history data using APIs.
-- Extract essential climate variables like temperature, humidity, and wind speed.
+- Fetch temperature data using APIs and google earth engine.
+- Extract essential climate variables like temperature.
 
 ### ✅ **2. Data Preprocessing**
 - Convert day numbers to dates for alignment across datasets.
 - Filter and merge datasets with a **10 km x 10 km grid**.
-- Handle missing values and consider interpolation if needed.
 
 ### ✅ **3. Multi-Channel GeoTIFF for CNN + LSTM**
 - **We are creating a multi-channel GeoTIFF file as input for a CNN + LSTM model.**
