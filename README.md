@@ -199,8 +199,4 @@ model.summary()
 ```
 
 🚀 **Stay tuned for more updates!**
-1️⃣ **Visualize the Multi-Channel TIFF**
-2️⃣ **Train CNN + LSTM with Multi-Channel Data**
-
-🚀 **Stay tuned for more updates!**
 
