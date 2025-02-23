@@ -15,7 +15,6 @@ This project focuses on collecting, processing, and analyzing meteorological and
 
 ### ✅ **2. Data Preprocessing**
 - Convert day numbers to dates for alignment across datasets.
-- Filter and merge datasets with a **10 km x 10 km grid**.
 
 ### ✅ **3. Multi-Channel GeoTIFF for CNN + LSTM**
 - **We are creating a multi-channel GeoTIFF file as input for a CNN + LSTM model.**
