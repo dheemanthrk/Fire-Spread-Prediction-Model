@@ -41,7 +41,7 @@ This project focuses on collecting, processing, and analyzing meteorological and
 - **CSV (`.csv`)** for tabular data storage and ML training.
 - **PNG/JPG (`.png`, `.jpg`)** for quick visualizations.
 
-## Sample CNN + LSTM Model Code
+## CNN + LSTM Model Code
 ```python
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
